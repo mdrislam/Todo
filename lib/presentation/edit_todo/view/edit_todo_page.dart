@@ -43,7 +43,7 @@ class EditTodoPage extends StatelessWidget {
               }
               Get.back();
             },
-            child: const Text('Update'),
+            child: todo == null ? const Text('Save') : const Text('Update'),
           ),
         ],
       ),
